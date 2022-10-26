@@ -19,6 +19,6 @@ let isAlive = setInterval ( function() {
     let cactusLeft = parseInt(window.getComputedStyle(cactus).getPropertyValue("left"))
 
     if (cactusLeft < 50 && cactusLeft > 0 && catTop >= 140) {
-        alert("U R loshara")
+        alert("Game over")
     }
 }, 10)
